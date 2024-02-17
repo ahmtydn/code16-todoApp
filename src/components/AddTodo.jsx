@@ -1,9 +1,7 @@
-/**
- * Created by 0easy-23 on 2017/8/15.
- */
-import React, {Component} from 'react';
+/* eslint-disable react/prop-types */
+import  {Component} from 'react';
 import {addTodo} from '../actions/index';
-export default class extends Component {
+export default class AddTodo extends Component {
     render() {
         const {dispatch} = this.props;
         return (

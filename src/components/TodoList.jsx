@@ -1,9 +1,7 @@
-/**
- * Created by 0easy-23 on 2017/8/15.
- */
-import React, {Component} from 'react';
+/* eslint-disable react/prop-types */
+import  {Component} from 'react';
 import Todo from './Todo';
-export default class extends Component {
+export default class TodoList extends Component {
     render() {
         const {todos, onTodoClick,dleTodoClick} = this.props;
         return (

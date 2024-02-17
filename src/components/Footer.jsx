@@ -1,9 +1,6 @@
-/**
- * Created by 0easy-23 on 2017/8/15.
- */
-import React,{Component} from 'react';
+import {Component} from 'react';
 import FilterLink from '../containers/FilterLink';
-export default class extends Component{
+export default class Footer extends Component{
    render(){
        return (
            <p className="footer">
